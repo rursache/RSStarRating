@@ -8,7 +8,7 @@ Use SPM to install this library
 ## Usage
 ### Interface Builder
 1. Add a UIView to your interface
-2. In the Identiy Inspector, change Class to `RSStarRatingView`
+2. In the Identiy Inspector, change Class to `RSRatingView`
 3. In the Attributes Inspector you can now set:
  * the **rating** (Float between 0 and 5)
  * the **star color**
@@ -16,8 +16,11 @@ Use SPM to install this library
 4. By checking **User Interaction Enabled** users can touch the view to enter a star rating. The rating stars updates while touching.
 
 ### Code
-1. Create an instance of StarRatingView  
-`let starRatingView = RSStarRatingView(frame: CGRect(origin: .zero, size: CGSize(width: 250, height: 50)), rating: 3.5, color: .systemOrange, starRounding: .roundToHalfStar)`  
+1. Create an instance of `RSRatingView`
+```
+let starRatingView = RSRatingView(frame: CGRect(origin: .zero, size: CGSize(width: 250, height: 50)), rating: 3.5, color: .systemOrange, starRounding: .roundToHalfStar)
+```
+
 Natural aspect ratio is 5 width to 1 height. 
 2. Add the view as a subview
 3. Properties (set and get)
