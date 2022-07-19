@@ -36,6 +36,9 @@ Natural aspect ratio is 5 width to 1 height.
 `  case floorToFullStar = 5`  
 `}`
 
+## Credits
+Based on [guidove's StarRatingView](https://github.com/guidove/StarRatingView)
+
 ## License
 
 RSEssentials is available under the **MPL-2.0 license**. See the [LICENSE](https://github.com/rursache/RSRatingView/blob/master/LICENSE) file for more info.
