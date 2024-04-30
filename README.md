@@ -1,5 +1,4 @@
 # RSRatingView
-
 RSRatingView is a simple Star Rating View for displaying star ratings and entering them (by touching the stars). It's written for iOS, in Swift 5.1. It also works with Interface Builder
 
 ## Installation
@@ -30,18 +29,19 @@ Natural aspect ratio is 5 width to 1 height.
  * `starRatingView.isUserInteractionEnabled` (type: `Bool`)
 
 ## The StarRounding ENUM
-`public enum StarRounding: Int {`  
-`  case roundToHalfStar = 0`  
-`  case ceilToHalfStar = 1`  
-`  case floorToHalfStar = 2`  
-`  case roundToFullStar = 3`  
-`  case ceilToFullStar = 4`  
-`  case floorToFullStar = 5`  
-`}`
+```swift
+public enum StarRounding: Int {
+  case roundToHalfStar = 0
+  case ceilToHalfStar = 1
+  case floorToHalfStar = 2
+  case roundToFullStar = 3
+  case ceilToFullStar = 4
+  case floorToFullStar = 5
+}
+```
 
 ## Credits
 Based on [guidove's StarRatingView](https://github.com/guidove/StarRatingView)
 
 ## License
-
-RSEssentials is available under the **MPL-2.0 license**. See the [LICENSE](https://github.com/rursache/RSRatingView/blob/master/LICENSE) file for more info.
+RSStarRating is available under the **MPL-2.0 license**. See the [LICENSE](https://github.com/rursache/RSRatingView/blob/master/LICENSE) file for more info.
