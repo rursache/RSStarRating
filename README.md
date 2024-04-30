@@ -1,5 +1,5 @@
 # RSRatingView
-RSRatingView is a simple Star Rating View for displaying star ratings and entering them (by touching the stars). It's written for iOS, in Swift 5.1. It also works with Interface Builder
+RSRatingView is a simple Star Rating View for displaying and editing star ratings. Works with Interface Builder
 
 ## Installation
 Use SPM to install this library
